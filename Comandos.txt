@@ -6,3 +6,22 @@ git config --local user.name "Stevan"
 
 git config --local user.email "estebanmaya163@gmail.com"
 (esto configura al email de usuario asociado a la cuenta github)
+
+git branch -M main
+(cambiar el nombre de la rama de Master a Main)
+
+git add .
+(añade todos los archivos al respositorio)
+
+git commit -m "version de subida"
+(es la version que usted este subiendo al repo)
+
+git push -u origin main
+(Este empuja los cambios locales a la nube).
+
+git status
+(comprueba el estado de la rama)git 
+
+git remote add origin
+https://github.com/estebanmaya163-stack/Maquetado_web.git
+(añade la direccion de su repositorio se hace a ejecutar una unica vez
