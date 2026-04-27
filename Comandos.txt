@@ -2,7 +2,7 @@ git init
 (Sirve para iniciar el repertorio inicial)
 
 git config --local user.name "Stevan"
-(esto configura al nombre de usuario localmente"
+(esto configura al nombre de usuario localmente")
 
 git config --local user.email "estebanmaya163@gmail.com"
 (esto configura al email de usuario asociado a la cuenta github)
@@ -24,4 +24,4 @@ git status
 
 git remote add origin
 https://github.com/estebanmaya163-stack/Maquetado_web.git
-(añade la direccion de su repositorio se hace a ejecutar una unica vez
+(añade la direccion de su repositorio se hace a ejecutar una unica vez)
