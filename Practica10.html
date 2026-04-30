@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- La etiqueta table se utiliza para definir tablas en HTML. Todo el contenido de la tabla, incluidas las filas y celdas; se coloca dentro de esta etiqueta -->
+
+    <!-- La etiqueta tr se utiliza para definir una fila en una tabla. Cada fila puede contener una o mas celdas, que se definen utilizando las etiquetas td (para celdas de datos) o th (para celdas de encabezado) -->
+
+    <!-- La etiqueta td define una celda de datos dentro de una fila. cada etiqueta t representa una columna en la tabla -->
+
+    <!-- La etiqueta th define una celda de encabezado dentro de una fila. Cada etiqueta th representa un encabezado de columna en la tabla -->
+
+    <table border="5"> <!-- Etiqueta de apertura-->
+    <tr> <!--Fila 1-->
+        <th>Encabezado 1</th> 
+        <th>Encabezado 2</th> 
+        <th>Encabezado 3</th> 
+    </tr>
+
+    <tr> <!--Fila 2-->
+        <th>Dato 1</th> 
+        <th>Dato 2</th> 
+        <th>Dato 3</th>  
+    </tr>
+
+        <tr> <!--Fila 3-->
+        <th>Dato 4</th> 
+        <th>Dato 5</th> 
+        <th>Dato 6</th>  
+    </tr>
+</table> <!--Etiqueta de cierre-->
+<br>
+<br>
+<table border="2"> <!-- Etiqueta de apertura de la tabla-->
+ <caption>Paises y capitales</caption>
+<tr>
+    <th>Pais</th>
+    <th>Capital</th>
+</tr>
+<tr>
+    <th>España</th>
+    <th>Madrid</th>
+</tr>
+<tr>
+    <th>Francia</th>
+    <th>Paris</th>
+</tr>
+<tr>
+    <th>Italia</th>
+    <th>Roma</th>
+</tr>
+
+
+</table>
+
+<table border="1"> <!-- Tabla de celdas combinadas-->
+    <tr>
+        <th colspan="4">Muncial de futbol</th> <!-- Celda de encabezado que abarca dos columnas-->
+    </tr>
+    <tr>
+        <th rowspan="3">Paises con mayoria de goles</th> <!-- Celda de datos que abarca dos filas-->
+        <td>Brasil 2</td><td>230</td>
+        <tr>
+            <td>Alemania</td><td>180</td>
+        </tr>
+        <tr>
+            <td>Argentina</td><td>150</td>
+        </tr>
+</table>
+
+</body>
+
+</html>
